@@ -58,7 +58,7 @@ header {
     width: 100%;
     top: 0;
     backdrop-filter: blur(12px);
-    z-index: 1000;
+    z-index: 2;
 }
 
 header h1 {
@@ -289,9 +289,10 @@ footer {
     background-color: #161716;
     animation: neonGlowBorder 1.5s infinite alternate;
     border-radius: 2rem;
-    height: auto;
+    height: 253px;
     width: auto;
     padding: 20px;  
+    box-sizing: border-box;
 }
 
 .image-box p {
@@ -954,6 +955,10 @@ footer {
     .frontback {
         width: 60px;
     }
+
+    .image-box {
+    height: 213px;
+}
 
     .image-box p {
         font-size: 16px;
